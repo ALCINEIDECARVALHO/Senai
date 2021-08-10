@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+             float i,b,c;
+             float soma;
+             float r1,r2,r3;
+             
+              printf("Informe tres numeros \n");
+               scanf("%f %f %f", &i,&b,&c);
+               
+               soma=i+b+c;
+               r1=soma/i;
+               r2=soma/b;
+               r3=soma/c;
+               
+               printf("\n");
+               
+               printf("A soma dos numeros foi: %f",soma);
+               
+               printf("\n");
+               
+               printf("os valores sao %f, %f ,%f\n", r1,r2,r3);
+               
+               system("pause");
+                  
+    return 0;
+}
